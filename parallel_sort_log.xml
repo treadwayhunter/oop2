@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T18:53:45.204243004Z</date>
+  <millis>1682708025204</millis>
+  <nanos>243004</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T18:53:45.216596947Z</date>
+  <millis>1682708025216</millis>
+  <nanos>596947</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T18:53:48.674995609Z</date>
+  <millis>1682708028674</millis>
+  <nanos>995609</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T18:53:48.710214557Z</date>
+  <millis>1682708028710</millis>
+  <nanos>214557</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:00:16.353778610Z</date>
+  <millis>1682708416353</millis>
+  <nanos>778610</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:16.367084241Z</date>
+  <millis>1682708416367</millis>
+  <nanos>84241</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:19.633807654Z</date>
+  <millis>1682708419633</millis>
+  <nanos>807654</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:19.655022508Z</date>
+  <millis>1682708419655</millis>
+  <nanos>22508</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:00:40.456770579Z</date>
+  <millis>1682708440456</millis>
+  <nanos>770579</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:40.468837423Z</date>
+  <millis>1682708440468</millis>
+  <nanos>837423</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>This is going to be awesome.</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:40.524230088Z</date>
+  <millis>1682708440524</millis>
+  <nanos>230088</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:43.797894296Z</date>
+  <millis>1682708443797</millis>
+  <nanos>894296</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:00:43.802044996Z</date>
+  <millis>1682708443802</millis>
+  <nanos>44996</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:01:31.186284631Z</date>
+  <millis>1682708491186</millis>
+  <nanos>284631</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:01:31.199006072Z</date>
+  <millis>1682708491199</millis>
+  <nanos>6072</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>Only warning and servere logs show in the console.</message>
+</record>
+<record>
+  <date>2023-04-28T19:01:31.255544166Z</date>
+  <millis>1682708491255</millis>
+  <nanos>544166</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:01:34.750834997Z</date>
+  <millis>1682708494750</millis>
+  <nanos>834997</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:01:34.752070496Z</date>
+  <millis>1682708494752</millis>
+  <nanos>70496</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:06:09.875178778Z</date>
+  <millis>1682708769875</millis>
+  <nanos>178778</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:09.886452144Z</date>
+  <millis>1682708769886</millis>
+  <nanos>452144</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>Only warning and servere logs show in the console.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:09.930808258Z</date>
+  <millis>1682708769930</millis>
+  <nanos>808258</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:13.695183432Z</date>
+  <millis>1682708773695</millis>
+  <nanos>183432</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:13.696570508Z</date>
+  <millis>1682708773696</millis>
+  <nanos>570508</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:06:18.230048675Z</date>
+  <millis>1682708778230</millis>
+  <nanos>48675</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:18.242733678Z</date>
+  <millis>1682708778242</millis>
+  <nanos>733678</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>Only warning and servere logs show in the console.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:18.307088938Z</date>
+  <millis>1682708778307</millis>
+  <nanos>88938</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:18.326917033Z</date>
+  <millis>1682708778326</millis>
+  <nanos>917033</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:18.328523694Z</date>
+  <millis>1682708778328</millis>
+  <nanos>523694</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:06:22.100031825Z</date>
+  <millis>1682708782100</millis>
+  <nanos>31825</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:22.115481371Z</date>
+  <millis>1682708782115</millis>
+  <nanos>481371</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>Only warning and servere logs show in the console.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:22.183100021Z</date>
+  <millis>1682708782183</millis>
+  <nanos>100021</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:25.982475871Z</date>
+  <millis>1682708785982</millis>
+  <nanos>475871</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:06:25.988932389Z</date>
+  <millis>1682708785988</millis>
+  <nanos>932389</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-28T19:08:03.873703546Z</date>
+  <millis>1682708883873</millis>
+  <nanos>703546</nanos>
+  <sequence>0</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Started a new parallel sort.</message>
+</record>
+<record>
+  <date>2023-04-28T19:08:03.887852971Z</date>
+  <millis>1682708883887</millis>
+  <nanos>852971</nanos>
+  <sequence>1</sequence>
+  <logger>mysort.Logging</logger>
+  <level>WARNING</level>
+  <class>mysort.Logging</class>
+  <method>warningLog</method>
+  <thread>1</thread>
+  <message>Only warning and servere logs show in the console.</message>
+</record>
+<record>
+  <date>2023-04-28T19:08:03.939134683Z</date>
+  <millis>1682708883939</millis>
+  <nanos>134683</nanos>
+  <sequence>2</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Generating Array</message>
+</record>
+<record>
+  <date>2023-04-28T19:08:07.746768749Z</date>
+  <millis>1682708887746</millis>
+  <nanos>768749</nanos>
+  <sequence>3</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Array is sorted.</message>
+</record>
+<record>
+  <date>2023-04-28T19:08:07.749130600Z</date>
+  <millis>1682708887749</millis>
+  <nanos>130600</nanos>
+  <sequence>4</sequence>
+  <logger>mysort.Logging</logger>
+  <level>INFO</level>
+  <class>mysort.Logging</class>
+  <method>infoLog</method>
+  <thread>1</thread>
+  <message>Finished parallel sort</message>
+</record>
+</log>

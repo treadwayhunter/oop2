@@ -9,10 +9,12 @@ import java.util.Random;
  * @author Steckler
  */
 public class ParallelSortMain {
+    private static final Logging logger = new Logging();
 
     public static void main(String[] args) {
-     
-        int LENGTH = 10000000;   // length of array to sort, reduce the size if needed
+        logger.infoLog("Started a new parallel sort.");
+
+        int LENGTH = 500000;   // length of array to sort, reduce the size if needed
         Integer[] a = createRandomArray(LENGTH);
 
         Comparator<Integer> comp = new Comparator<Integer>() {
@@ -65,6 +67,8 @@ public class ParallelSortMain {
 
     // Randomly rearranges the elements of the given array.
     public static <E> void shuffle(E[] a) {
+        logger.infoLog("Shuffling array.");
+
         for (int i = 0; i < a.length; i++) {
             // move element i to a random index in [i .. length-1]
             int randomIndex = (int) (Math.random() * a.length - i);
@@ -84,6 +88,8 @@ public class ParallelSortMain {
     // Creates an array of the given length, fills it with random
     // non-negative integers, and returns it.
     public static Integer[] createRandomArray(int length) {
+        logger.infoLog("Generating Array.");
+
         Integer[] a = new Integer[length];
         Random rand = new Random(System.currentTimeMillis());
         for (int i = 0; i < a.length; i++) {

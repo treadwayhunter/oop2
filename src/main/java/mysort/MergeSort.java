@@ -1,12 +1,22 @@
-package sort;
+package mysort;
 
 import java.util.*;
+import java.util.concurrent.ForkJoinPool;
 
 /**
- * MergeSorter class carries out the merge sort algorithm.
+ * This class carries out the merge sort algorithm.
  */
-public class MergeSorter {
-    private static final Logging logger = new Logging();
+public class MergeSort {
+
+
+    /*public static <E> void sort(List<E> list, Comparator<? super E> comp) {
+        ForkJoinPool threadPool = new ForkJoinPool();
+        threadPool.invoke(new MergeSortAction(list, comp));
+        threadPool.close();
+        //ForkJoinPool.commonPool().invoke(new MergeSortAction(list, comp));
+    }*/
+
+
     /**
      * Sorts an array, using the merge sort algorithm.
      *
@@ -14,9 +24,10 @@ public class MergeSorter {
      * @param comp the comparator to compare array elements
      */
     public static <E> void sort(E[] a, Comparator<? super E> comp) {
-        logger.infoLog("Sorting started.");
-        mergeSort(a, 0, a.length - 1, comp);
-        logger.infoLog("Sorting finished");
+        //mergeSort(a, 0, a.length - 1, comp);
+        ForkJoinPool threadPool = new ForkJoinPool();
+        threadPool.invoke(new MergeSortAction(a, comp, Integer.class));
+        threadPool.close();
     }
 
     /**
@@ -62,10 +73,8 @@ public class MergeSorter {
         int i2 = mid + 1;
         // Next element to consider in the second range
         int j = 0;
-         // Next open position in b
-
-      // As long as neither i1 nor i2 past the end, move
-        // the smaller element into b
+        // Next open position in b
+        // As long as neither i1 nor i2 past the end, move the smaller element into b
         while (i1 <= mid && i2 <= to) {
             if (comp.compare(a[i1], a[i2]) < 0) {
                 b[j] = a[i1];
@@ -76,26 +85,23 @@ public class MergeSorter {
             }
             j++;
         }
-
-      // Note that only one of the two while loops
-        // below is executed
+        // Note that only one of the two while loops below is executed
         // Copy any remaining entries of the first half
         while (i1 <= mid) {
             b[j] = a[i1];
             i1++;
             j++;
         }
-
         // Copy any remaining entries of the second half
         while (i2 <= to) {
             b[j] = a[i2];
             i2++;
             j++;
         }
-
         // Copy back from the temporary array
         for (j = 0; j < n; j++) {
             a[from + j] = (E) b[j];
         }
     }
+
 }

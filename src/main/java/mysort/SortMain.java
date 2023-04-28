@@ -1,21 +1,23 @@
-package parallelsort;
+package mysort;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.List;
 import java.util.Random;
 
 /**
  * ParallelSort Extra Credit implementation
  * @author Steckler
  */
-public class SortMain {
+public class SortMain<E> {
     private static final Logging logger = new Logging();
     public static void main(String[] args) {
         
-
         logger.infoLog("Started a new parallel sort.");
-
-        int len = 10000000;   // length of array to sort
+        logger.warningLog("Only warning and servere logs show in the console.");
+        
+        int len = 10000000;   
         Integer[] a = createRandomArray(len);
 
         Comparator<Integer> comp = new Comparator<Integer>() {
@@ -29,13 +31,13 @@ public class SortMain {
         MergeSort.sort(a, comp);
         long endTime = System.currentTimeMillis();
 
-        if (!isSorted(a, comp)) {
-            throw new RuntimeException("Not sorted afterward: " + Arrays.toString(a));
+        if(!isSorted(a, comp)) {
+            throw new RuntimeException("Not sorted!");
         }
 
         System.out.printf("%10d elements serial  =>  %6d ms %n", len, endTime - startTime);
+        logger.infoLog("Finished parallel sort");
     
-
     }// end main
 
     /**
@@ -57,34 +59,12 @@ public class SortMain {
         return true;
     }
 
-    // Randomly rearranges the elements of the given array.
-    public static <E> void shuffle(E[] a) {
-        logger.infoLog("Shuffling array.");
-        for (int i = 0; i < a.length; i++) {
-            // move element i to a random index in [i .. length-1]
-            int randomIndex = (int) (Math.random() * a.length - i);
-            swap(a, i, i + randomIndex);
-        }
-    }
-
-    // Swaps the values at the two given indexes in the given array.
-    public static final <E> void swap(E[] a, int i, int j) {
-
-        if (i != j) {
-            E temp = a[i];
-            a[i] = a[j];
-            a[j] = temp;
-        }
-    }
-
-    // Creates an array of the given length, fills it with random
-    // non-negative integers, and returns it.
     public static Integer[] createRandomArray(int length) {
         logger.infoLog("Generating Array");
         Integer[] a = new Integer[length];
         Random rand = new Random(System.currentTimeMillis());
         for (int i = 0; i < a.length; i++) {
-            a[i] = rand.nextInt(1000000);
+            a[i] = rand.nextInt(10000000);
         }
         return a;
     }

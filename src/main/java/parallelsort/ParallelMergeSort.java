@@ -6,7 +6,7 @@ import java.util.concurrent.ForkJoinPool;
 /**
  * Class that will invoke the ParallelMergeTask
  */
-public class ParallelMergeSort{
+public class ParallelMergeSort {
 
     /**
      *  Original sort call that calls the overloaded sort.

@@ -4,14 +4,19 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.concurrent.*;
+import java.util.logging.Logger;
+
 import static javax.swing.WindowConstants.*;
 
 /**
  * More sort demos at: https://www.nayuki.io/page/sorting-algorithms-demo-java
  */
 public class SortMain {
-
+    private static final Logging logger = new Logging();
     public static void main(String[] args) {
+
+        logger.infoLog("Started a new sort.");
+
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
@@ -40,6 +45,7 @@ public class SortMain {
 
         stepButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
+                logger.infoLog("Step button clicked");
                 queue.add("Step");
                 runButton.setEnabled(true);
             }
@@ -47,6 +53,7 @@ public class SortMain {
 
         runButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent event) {
+                logger.infoLog("Run button clicked");
                 runButton.setEnabled(false);
                 queue.add("Run");
             }
