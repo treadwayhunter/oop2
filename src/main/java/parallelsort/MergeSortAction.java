@@ -1,10 +1,7 @@
-package mysort;
+package parallelsort;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 import java.util.concurrent.RecursiveAction;
 
 public class MergeSortAction<E> extends RecursiveAction {
@@ -20,7 +17,6 @@ public class MergeSortAction<E> extends RecursiveAction {
 
     @Override
     protected void compute() {
-
         if(arr.length < 2) return;
         int mid = arr.length / 2;
 

@@ -4,7 +4,6 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 import java.util.concurrent.*;
-import java.util.logging.Logger;
 
 import static javax.swing.WindowConstants.*;
 
